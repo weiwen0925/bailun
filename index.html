@@ -605,8 +605,9 @@
     text-align: center;
     padding-bottom: 8px;
     border-bottom: 1px solid var(--border); }
-  .volume-content .col-card > p,
-  .volume-content .card > p {
+  /* Hanging indent only for paragraphs that START with a bold label like <strong>破斥：</strong> */
+  .volume-content .col-card > p:has(> strong:first-child),
+  .volume-content .card > p:has(> strong:first-child) {
     padding-left: 3em;
     text-indent: -3em;
     text-align: left; }
