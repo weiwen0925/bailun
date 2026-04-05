@@ -71,7 +71,15 @@
     color: var(--text);
     line-height: 1.9;
     font-size: 19px;
+    text-wrap: pretty;
   }
+  .volume-content h1, .volume-content h2, .volume-content h3, .volume-content h4,
+  .volume-content blockquote, .volume-content .highlight-box,
+  .volume-content .conclusion, .volume-content .insight-box,
+  .volume-content .formula, .volume-content .card,
+  .volume-content .warning, .volume-content .refutation,
+  .volume-content td, .volume-content th,
+  .volume-content .logic-box, .volume-content .logic-step { text-wrap: balance; }
 
   /* ===== STICKY NAV ===== */
   .top-nav {
@@ -916,7 +924,8 @@
     padding: 20px 24px;
     margin: 24px 0;
     text-align: center;
-    font-size: 1.05em; }
+    font-size: 1.05em;
+    text-wrap: balance; }
   .volume-content .highlight-box strong { color: var(--gold); }
   .volume-content .highlight-row td { background: #fef9e7; }
   .volume-content .hl-cyan { color: var(--cyan); font-weight: 600; }
@@ -1875,24 +1884,24 @@
         <th>結論</th>
       </tr>
       <tr>
-        <td><strong>自生</strong><br>(Self-origination)</td>
+        <td><strong>自生</strong><br><span style="white-space:nowrap;">(Self-origination)</span></td>
         <td>吉法不自生。若能生與所生是一，則犯「二相過」——同一法既是生者又是被生者。</td>
-        <td>不可得</td>
+        <td style="white-space:nowrap;">不可得</td>
       </tr>
       <tr>
-        <td><strong>他生</strong><br>(Other-origination)</td>
+        <td><strong>他生</strong><br><span style="white-space:nowrap;">(Other-origination)</span></td>
         <td>不從他生。自相無故，他相亦無。連自己都不存在，何來「他」？且無窮過——以生更有生。</td>
-        <td>不可得</td>
+        <td style="white-space:nowrap;">不可得</td>
       </tr>
       <tr>
         <td><strong>共生</strong><br>(Both)</td>
         <td>不共生。自、他皆不立，二俱過故。且無窮故，生更有生。</td>
-        <td>不可得</td>
+        <td style="white-space:nowrap;">不可得</td>
       </tr>
       <tr>
         <td><strong>無因生</strong><br>(Causeless)</td>
         <td>無因生亦破。無因而生，則一切法應隨時隨處生起，違反經驗。</td>
-        <td>不可得</td>
+        <td style="white-space:nowrap;">不可得</td>
       </tr>
     </table>
 
