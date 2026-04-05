@@ -85,11 +85,6 @@
   .volume-content .card-row p,
   .volume-content .warning p,
   .volume-content .refutation p { text-align: left; }
-  /* Hanging indent for dialogue paragraphs (外曰：/內曰：) */
-  .volume-content .original-text > p {
-    padding-left: 3em;
-    text-indent: -3em;
-    text-align: left; }
   /* Prevent matrix table cells from being squeezed too narrow */
   .volume-content table.matrix td { min-width: 72px; }
   /* Left-align table body text for readability (keep headers centered) */
@@ -1142,8 +1137,8 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.04); }
   .volume-content .original-text .ext { color: var(--tag-ext); }
   .volume-content .original-text .in-text { color: #6B3030;
-    padding-left: 2em;
-    text-indent: -2em;
+    padding-left: 3em;
+    text-indent: -3em;
     margin: 6px 0; }
   .volume-content .original-text .in-text::before { content: "內曰：";
     font-weight: 700;
@@ -1158,16 +1153,18 @@
     margin-bottom: 10px;
     letter-spacing: 1px; }
   .volume-content .original-text .out-text { color: #6B5B3E;
-    padding-left: 2em;
-    text-indent: -2em;
+    padding-left: 3em;
+    text-indent: -3em;
     margin: 6px 0; }
   .volume-content .original-text .out-text::before { content: "外曰：";
     font-weight: 700;
     color: var(--gold); }
   .volume-content .original-text p,
-  .volume-content .original-text .para { text-indent: 0;
+  .volume-content .original-text .para {
     margin-bottom: 8px;
-    padding-left: 0; }
+    padding-left: 3em;
+    text-indent: -3em;
+    text-align: left; }
   .volume-content .original-text .para .tag,
   .volume-content .original-text .waidao-line { color: var(--red);
     font-weight: bold; }
