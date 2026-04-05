@@ -80,6 +80,18 @@
   .volume-content .warning, .volume-content .refutation,
   .volume-content td, .volume-content th,
   .volume-content .logic-box, .volume-content .logic-step { text-wrap: balance; }
+  /* Fix narrow-column text layout: prevent justify from causing wide letter-spacing */
+  .volume-content .card p,
+  .volume-content .card-row p,
+  .volume-content .warning p,
+  .volume-content .refutation p { text-align: left; }
+  /* Hanging indent for dialogue paragraphs (外曰：/內曰：) */
+  .volume-content .original-text > p {
+    padding-left: 3em;
+    text-indent: -3em;
+    text-align: left; }
+  /* Prevent matrix table cells from being squeezed too narrow */
+  .volume-content table.matrix td { min-width: 72px; }
 
   /* ===== STICKY NAV ===== */
   .top-nav {
