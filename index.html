@@ -860,7 +860,8 @@
     font-weight: 600; }
   .volume-content .flow-arrow { font-size: 1.4em;
     color: var(--cyan-dim);
-    padding: 4px 0; }
+    padding: 4px 0;
+    text-align: center; }
   .volume-content .flow-step { background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -1027,7 +1028,8 @@
     font-size: 0.8rem;
     margin-bottom: 0.8rem; }
   .volume-content .logic-arrow { font-size: 1.4em;
-    color: var(--gold); }
+    color: var(--gold);
+    text-align: center; }
   .volume-content .logic-box { background: #f9f5ef;
     border: 1px dashed var(--accent2);
     border-radius: 6px;
@@ -1050,7 +1052,12 @@
     border: 1px solid var(--border-cyan);
     border-radius: 8px;
     padding: 20px 24px;
-    margin: 16px 0; }
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px; }
+  .volume-content .logic-flow .logic-step { width: 100%; box-sizing: border-box; }
   .volume-content .logic-flow .step { display: flex;
     align-items: flex-start;
     gap: 12px;
