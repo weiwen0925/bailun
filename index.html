@@ -1188,6 +1188,12 @@
   .volume-content .original-text .para .tag.inner-tag,
   .volume-content .original-text .neidao-line { color: var(--teal);
     font-weight: bold; }
+  .volume-content .original-text:has(> .waidao-line, > .neidao-line) {
+    padding-left: calc(36px + 3em); }
+  .volume-content .original-text > .waidao-line,
+  .volume-content .original-text > .neidao-line,
+  .volume-content .original-text:has(> .waidao-line, > .neidao-line) > .label {
+    margin-left: -3em; }
   .volume-content .original-text .round { margin: 20px 0;
     padding: 16px;
     background: #FDFBF7;
