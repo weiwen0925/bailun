@@ -1599,6 +1599,14 @@
   .volume-content tr:hover { background: var(--blue-light); }
   .volume-content tr:nth-child(even) { background: #FAFAF5; }
 
+  /* 防止複製 */
+  body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
 </style>
 </head>
 <body>
@@ -6549,6 +6557,19 @@ window.addEventListener('scroll', function() {
   var pct = (scrollTop / scrollHeight) * 100;
   document.getElementById('progressBar').style.width = pct + '%';
 });
+</script>
+
+<script>
+// 防止右鍵選單
+document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
+// 防止鍵盤複製、全選、列印
+document.addEventListener('keydown', function(e) {
+  if ((e.ctrlKey || e.metaKey) && ['c','a','p','s','u'].includes(e.key.toLowerCase())) {
+    e.preventDefault();
+  }
+});
+// 防止拖曳選取
+document.addEventListener('dragstart', function(e) { e.preventDefault(); });
 </script>
 
 </body>
