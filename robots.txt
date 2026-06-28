@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# AI 訓練爬蟲：拒絕（與 HTML meta 一致）
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: anthropic-ai
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+User-agent: cohere-ai
+Disallow: /
+
+Sitemap: https://weiwen0925.github.io/bailun/sitemap.xml
