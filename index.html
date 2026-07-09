@@ -1067,5 +1067,58 @@ setInterval(function(){
   });
 })();
 </script>
+<!--WY-BLP1:BEGIN-->
+<style id="wy-blp1-css">
+.blp1-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.blp1-fabbox.show{display:block;}
+.blp1-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.blp1-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.blp1-ic{font-size:15px;line-height:1;color:#ecc978;}
+.blp1-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.blp1-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.blp1-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.blp1-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.blp1-modal.open{display:flex;}
+.blp1-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.blp1-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.blp1-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.blp1-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.blp1-close:hover{background:#e3d5b8;}
+.blp1-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.blp1-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.blp1-tbl th,.blp1-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.blp1-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.blp1-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.blp1-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.blp1-tbl b{color:#8b2500;}
+.blp1-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.blp1-note b{color:#8b2500;}
+@media(max-width:900px){.blp1-fabbox{right:14px;}.blp1-tbl{font-size:11.5px;}.blp1-card{padding:26px 14px 16px;}}
+</style>
+<div class="blp1-fabbox" id="blp1Box"><button class="blp1-btn" id="blp1Btn" type="button" aria-label="開啟全景總表"><span class="blp1-ic">▦</span><span class="blp1-ls"><span class="blp1-l1">本品 · 捨罪福品第一</span><span class="blp1-l2">破邪執立世俗，福尚應捨終歸無相</span></span></button></div><div class="blp1-modal" id="blp1Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="blp1-card"><button class="blp1-close" id="blp1Close" type="button" aria-label="關閉">×</button><h3>百論·捨罪福品第一 · 全景總表</h3><p class="sub">百論·第一品｜自性吉之破・止惡行善次第・淨不淨診斷・福尚應捨・三解脫門無相最上</p><table class="blp1-tbl"><caption>一、破邪執與立世俗（本品前半骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>頂禮偈判準</td><td>論主以「邪見覆正見」破外道諸師之「深淨法」，判準不在苦行強度，唯在能否如實了知諸法實相</td></tr><tr><td>不定故無吉</td><td>外道執「經初吉」為自性吉，論主指出同一事三人三見（此以為吉、彼以為不吉），故「不定故無吉」</td></tr><tr><td>四門不生</td><td>自生、他生、共生、無因生，四門窮盡覓「吉」之本體皆不可得，抽乾「自性吉」的本體論基礎</td></tr><tr><td>鹽喻燈喻雙破</td><td>鹽相鹽中住，物不為鹽；燈喻則以空間、時間、接觸三軸，證「自性能傳染、能照他」皆不成立</td></tr><tr><td>惡止善行次第</td><td>佛略說善法二相：止相（息一切惡）、行相（修一切善），先止後行，如浣衣先去垢然後可染</td></tr><tr><td>三智判教</td><td>下智教布施（利益他）、中智教持戒（無作惡行）、上智教智慧（正見緣諸法實相），隨根器施設</td></tr></tbody></table><table class="blp1-tbl"><caption>二、淨不淨診斷與福尚應捨（本品中段骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>淨不淨診斷矩陣</td><td>下智布施若為報施（求名求富貴）則不淨，若愛敬利他不求報則淨；中智持戒若為婬欲樂報則不淨，淨持戒則導向解脫十一次第</td></tr><tr><td>上智淨不淨</td><td>不淨智如怨來親，增長生死；淨智緣諸法實相，斷我與我所之執，非知識量增加而是能所對立之瓦解</td></tr><tr><td>福滅時苦</td><td>樂受生時樂住時樂滅時苦，福報滅時離所樂事生大憂苦，故如雜毒飯食時美消時苦、如近火止寒轉近則燒身</td></tr><tr><td>終極悖論</td><td>「福尚應捨，何況罪」——連最殊勝之淨施淨戒淨慧亦須全部放下，此為全品最劇烈的範式翻轉</td></tr><tr><td>浣衣再染次第</td><td>面對「若必捨何必造」之詰難，論主答以生道次第法：先除罪垢、次以福德熏心、然後受涅槃道染，福是渡河之筏</td></tr><tr><td>無相最上</td><td>一切相不憶念、於三世法心無所著、一切法自性無故則無所依，即此方便能捨福，三解脫門（空無相無作）為究竟依止</td></tr></tbody></table><table class="blp1-tbl"><caption>三、全景總攝與三句總持（本品結論）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>三階段升華模型</td><td>破邪執（Deconstruct，抽乾自性吉本體）→立世俗（Construct，確立止惡行善次第）→歸無相（Transcend，福滅時苦究竟無相）</td></tr><tr><td>世俗勝義雙軌並行</td><td>世俗諦不壞假名、建立先止後行之次第；勝義諦一切法自性無故、俱捨罪福，二者如∞雙環並行方稱中道</td></tr><tr><td>全景邏輯矩陣三柱</td><td>左柱破本體執（四門不生）、中柱建世俗相（止惡行善淨化動機）、右柱歸勝義諦（洞悉福滅時苦俱捨罪福體證無相）</td></tr><tr><td>提婆辯證兵法</td><td>不壞俗諦守次第法防惡取空、隱勝所依以應成派邏輯不立自宗、動態空性連無相亦是方便不可再起取著</td></tr><tr><td>三句總持口訣</td><td>知一切法無自性（破自性吉自性醎自性能照）、於緣起中行善次第（不壞俗諦先止後行再揀淨終捨福）、究竟以無相為依（三解脫門無相最上）</td></tr><tr><td>全品中觀心法</td><td>從「頂禮佛足」莊嚴起首至「無相最上」究竟解脫，辯證精微、邏輯鋒利、心法圓融，鋪設從破邪立俗揀淨歸寂的完整修行軌道</td></tr></tbody></table><p class="blp1-note">捨罪福品雖題為「破邪執」，實則暗藏一條完整的修證階梯：先以四門不生、鹽燈雙喻拔除「自性吉」之本體妄執，繼而以止觀善次第安立世俗因緣中的可操作性，再以淨不淨診斷矩陣揭露布施持戒智慧背後可能潛藏的求報之心，最終逼出「福尚應捨，何況罪」的終極悖論——連最殊勝的淨福亦是「將人常行生死中」的行法，必須以無相究竟捨之。全品之精要，在於守住世俗與勝義的雙軌並行：不壞假名而說次第，不廢因緣而證無相；提婆菩薩以應成派「彼予彼盾」之辯證兵法層層推進，讓讀者體會中觀「不壞假名而說諸法實相」的中道深義，越次第而證無相，方為《百論》開卷第一義的究竟指歸。</p></div></div>
+<script id="wy-blp1-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("blp1Btn"),BOX=document.getElementById("blp1Box"),MODAL=document.getElementById("blp1Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=0;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".ch-yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="blp1Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BLP1:END-->
 </body>
 </html>
