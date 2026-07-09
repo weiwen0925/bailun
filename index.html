@@ -1540,5 +1540,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BLP8:END-->
+<!--WY-BLP9:BEGIN-->
+<style id="wy-blp9-css">
+.blp9-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.blp9-fabbox.show{display:block;}
+.blp9-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.blp9-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.blp9-ic{font-size:15px;line-height:1;color:#ecc978;}
+.blp9-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.blp9-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.blp9-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.blp9-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.blp9-modal.open{display:flex;}
+.blp9-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.blp9-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.blp9-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.blp9-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.blp9-close:hover{background:#e3d5b8;}
+.blp9-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.blp9-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.blp9-tbl th,.blp9-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.blp9-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.blp9-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.blp9-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.blp9-tbl b{color:#8b2500;}
+.blp9-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.blp9-note b{color:#8b2500;}
+@media(max-width:900px){.blp9-fabbox{right:14px;}.blp9-tbl{font-size:11.5px;}.blp9-card{padding:26px 14px 16px;}}
+</style>
+<div class="blp9-fabbox" id="blp9Box"><button class="blp9-btn" id="blp9Btn" type="button" aria-label="開啟全景總表"><span class="blp9-ic">▦</span><span class="blp9-ls"><span class="blp9-l1">本品 · 破常品第九</span><span class="blp9-l2">五座幾何豐碑，但有言說實無所有</span></span></button></div><div class="blp9-modal" id="blp9Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="blp9-card"><button class="blp9-close" id="blp9Close" type="button" aria-label="關閉">×</button><h3>百論·破常品第九 · 全景總表</h3><p class="sub">百論·第九品｜虛空時方微塵涅槃・有分必無常相待即性空・徹底大自在</p><table class="blp9-tbl"><caption>一、外道終極堡壘與兩大邏輯公理</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>外道終極堡壘</td><td>無因常法不破故——虛空時方微塵涅槃是無因法，外道把賭注押在「無因故常」這條最後防線，論主一句「若強以為常無常同」即破：無因前提對常無常等效</td></tr><tr><td>五座幾何豐碑</td><td>無限的空間（虛空遍常無分）、流動的時間（時承載三世）、絕對的座標（方以日合處定東方）、基礎的粒子（微塵圓常無因）、實體的境界（涅槃無煩惱永恆實體）</td></tr><tr><td>公理α有分必無常</td><td>凡可被空間定位結構組合形狀辨識者必有部分，有分即因緣拼湊之產物，拼湊則可拆解，可拆解則必散壞，散壞則無常</td></tr><tr><td>公理β相待即性空</td><td>任何事物之定義若依賴觀察者對立面或先後順序即墮相待，即無獨立自相，無自相即無獨立實體，無實體即無常可言</td></tr><tr><td>總破了因作因之辯</td><td>外道以了因（顯示者非製造者）救常法有因不必無常，論主回應了因所要顯示的對象（五座豐碑）本來就不存在，了因這張牌沒用</td></tr><tr><td>不作法為常之迷思</td><td>作法無常故不作法為常，論主以「同無觸故不作法應無常」反推：作法不作法在無觸這一點共有，不能憑此單獨稱不作法為常</td></tr></tbody></table><table class="blp9-tbl"><caption>二、五座豐碑逐一破斥對照</caption><thead><tr><th>靶標</th><th>中觀解剖刀與死穴</th></tr></thead><tbody><tr><td>虛空（Ākāśa）</td><td>容器悖論：瓶中虛空都有則不遍分有則有分，兩條路皆死；虛空無住處：住孔穴則無窮回退、住實中則實無空；斷樹之喻：無色只是色之缺席非另有一法</td></tr><tr><td>時（Kāla）</td><td>三世斷裂悖論：時若為一法則過去土永不能變未來瓶；自相防禦崩潰：若三世皆自相有則盡應現在，若未來無其自相則未來根本不存在</td></tr><tr><td>方（Diś）</td><td>須彌山相對性：日繞須彌一週四洲輪流稱東，無絕對之東方；局部化防禦後撞邊界拓撲死穴：日先合處為東方則諸方有邊，有邊故有分故無常</td></tr><tr><td>微塵（Paramāṇu）</td><td>二微塵合悖論：全身合則1+1仍是1永不能變大、局部合則有接觸面與未接觸面即有分；與虛空有別色味等別形狀圓周直徑皆是有分之證</td></tr><tr><td>涅槃（Nirvāṇa）</td><td>涅槃作法故：因修道故無煩惱，若無煩惱即涅槃則涅槃是作法故無常；能破非破：若涅槃能為解脫者則非解脫；虛無恐懼：畏處云何可染，害怕與擁有互相矛盾</td></tr><tr><td>五破統一邏輯</td><td>直讀縱軸為外道立場→中觀切口→公理→死穴→判語；橫讀橫軸顯示同一邏輯型態（α有分必無常、β相待即性空）如何在五個迥異對象上一致運作</td></tr></tbody></table><table class="blp9-tbl"><caption>三、四層拓撲與究竟自由</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>四層辯證拓撲</td><td>感知層（人人都信眼見可知）→幾何層（邊分相方向）→邏輯層（α有分無常β相待性空）→本體層（但有言說實無所有）</td></tr><tr><td>涅槃五重解構</td><td>涅槃作法故無常→能破非破（能解脫者仍在繫縛中）→縛可縛方便三法之外無用→虛無恐懼（畏處云何可染）→究竟空義（譬如燈滅不可論說）</td></tr><tr><td>誰得涅槃之終極辨析</td><td>若神得涅槃神是常是遍故不應得涅槃，五陰亦不得涅槃（五陰無常生滅故），若言得涅槃是世界中說，只是世俗方便施設</td></tr><tr><td>從宏觀到微觀的全面解構</td><td>破宏觀絕對化（方時，不再相信客觀東方客觀時間之流）、破微觀絕對化（微塵，不再相信物質有不可再分的基本粒子）、破解脫絕對化（涅槃，連解脫也放下）</td></tr><tr><td>提婆之深心</td><td>連修行人最後的家涅槃也要拆掉，若不拆除涅槃為實有可得的最後執著，修行者永遠在想要得到什麼的執著中打轉，永不能真實離欲</td></tr><tr><td>究竟判語</td><td>但有言說，實無所有：一切名相所指的實體皆為緣起施設非有自性，明白此理並非否定世俗方便交流，而是能在世俗中遊戲、在勝義中無染，方為徹底大自在</td></tr></tbody></table><p class="blp9-note">〈破常品〉是提婆菩薩對外道「無因常法」這一終極堡壘的總攻——外道承認可造之法無常，卻堅稱虛空、時、方、微塵、涅槃五座幾何豐碑因「無因」而常住不變。論主以兩把跨越五靶的解剖刀貫穿全品：公理α「有分必無常」證明任何能被空間定位、結構組合、形狀辨識之物必有部分，有分則因緣拼湊必散壞；公理β「相待即性空」證明任何依賴觀察者、對立面或先後順序而定義之物即無獨立自相。虛空在瓶中都有則不遍、分有則有分的容器悖論，時之三世若各為自相則盡應現在的斷裂悖論，方位隨觀察者所在洲別而輪流稱東的須彌山相對性模型，微塵合則同壞或有分的二微塵悖論，直至最幽微的涅槃——因修道故無煩惱即是作法，作法故無常，連能破解脫者本身仍在繫縛中，此為「能破非破」。當外道流露出對「無所有」的最深恐懼時，論主一句「畏處云何可染」直指人心：害怕虛無卻又想擁有涅槃，本身即自相矛盾。全品最終判語「但有言說，實無所有」不是否定世俗方便，而是徹底拆除包括「涅槃」在內一切實體化思維的最後執著，讓修行者連「解脫」這個概念也放下，方得徹底大自在。</p></div></div>
+<script id="wy-blp9-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("blp9Btn"),BOX=document.getElementById("blp9Box"),MODAL=document.getElementById("blp9Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=8;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".ch-yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="blp9Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BLP9:END-->
 </body>
 </html>
