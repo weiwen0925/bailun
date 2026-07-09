@@ -1434,5 +1434,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BLP6:END-->
+<!--WY-BLP7:BEGIN-->
+<style id="wy-blp7-css">
+.blp7-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.blp7-fabbox.show{display:block;}
+.blp7-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.blp7-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.blp7-ic{font-size:15px;line-height:1;color:#ecc978;}
+.blp7-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.blp7-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.blp7-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.blp7-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.blp7-modal.open{display:flex;}
+.blp7-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.blp7-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.blp7-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.blp7-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.blp7-close:hover{background:#e3d5b8;}
+.blp7-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.blp7-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.blp7-tbl th,.blp7-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.blp7-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.blp7-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.blp7-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.blp7-tbl b{color:#8b2500;}
+.blp7-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.blp7-note b{color:#8b2500;}
+@media(max-width:900px){.blp7-fabbox{right:14px;}.blp7-tbl{font-size:11.5px;}.blp7-card{padding:26px 14px 16px;}}
+</style>
+<div class="blp7-fabbox" id="blp7Box"><button class="blp7-btn" id="blp7Btn" type="button" aria-label="開啟全景總表"><span class="blp7-ic">▦</span><span class="blp7-ls"><span class="blp7-l1">本品 · 破因中有果品第七</span><span class="blp7-l2">續故不斷，壞故不常，逼向斷滅柳暗花明</span></span></button></div><div class="blp7-modal" id="blp7Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="blp7-card"><button class="blp7-close" id="blp7Close" type="button" aria-label="關閉">×</button><h3>百論·破因中有果品第七 · 全景總表</h3><p class="sub">百論·第七品｜數論因中有果論・泥團即瓶四道防線・穀芽口訣十二因緣中道</p><table class="blp7-tbl"><caption>一、三派因果診斷與四道防線總綱</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>本品定位</td><td>承接卷六破常品破實體不變之脈絡，回到本體論最深處：果是否預存於因？所破為數論派因中有果論（Satkāryavāda），瓶子已潛藏泥團只待陶師開顯</td></tr><tr><td>三派因果診斷矩陣</td><td>數論派因中有果（果預先隱藏，終極過失為常見）；勝論派因中無果（果徹底無有，終極過失為斷見）；中觀派緣起法（依緣而起，相續與壞滅共存，無過中道）</td></tr><tr><td>外道開卷三重命題</td><td>諸法非不住（一切法常住實體）、有不失故（已存在者不會消失）、無不生故（原本沒有的東西不會生出）</td></tr><tr><td>第一防線破斥</td><td>泥團即瓶之五異反證（形時力知名有異故有應失）；業能之辨（屈申是指業、指是能，業非能）；少壯老不可逆轉（少不作壯、壯不作老）</td></tr><tr><td>第二防線破斥</td><td>無常乃罪福之母（若無無常則罪福悉無，布施持戒皆成徒勞）；因果絕對同一論導致三世為一（泥團現在瓶為未來若因果一則無未來無現在無過去）</td></tr><tr><td>第三防線破斥</td><td>名相遁詞反成致命命名學（此名先無後有故因中無果）；微細相八不可知盾牌被「本無麁相後乃生」一句直擊麤相新生</td></tr></tbody></table><table class="blp7-tbl"><caption>二、目的論生滅時序與終局躍遷</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>第四防線各取因故</td><td>作瓶取泥不取蒲，外道以此證泥中預先含有瓶之特質，論主以「若當有有若當無無」反擊：瓶破故應當無果，是以因中無果</td></tr><tr><td>生滅時序詭辯</td><td>外道退守生住壞次第（要先生次住後破），論主指出未生時無住無壞，此二先無後有，故因中無果，時序倒錯寬度為零</td></tr><tr><td>斷滅恐懼</td><td>外道最後控訴汝破有果故有斷過，若因中無果則墮斷滅，此為印度諸常見派最深層焦慮：失去實體便失去一切</td></tr><tr><td>中道躍遷心法</td><td>續故不斷（種子牙等相續故不斷，能量條件持續傳遞產生相續現象）、壞故不常（穀子等因壞故不常，種子須腐壞才能轉化為芽）</td></tr><tr><td>穀芽終極口訣</td><td>穀子腐壞而能量條件並未絕滅轉化為芽相續不斷；芽依穀子之壞而起卻非穀子的延續，此即緣起真實面貌</td></tr><tr><td>十二因緣中道</td><td>諸佛說十二分因緣生法，離因中有果無果故不著斷常，行中道入涅槃；本品十四回合問答終極指向斬斷實體執念證入涅槃寂靜</td></tr></tbody></table><table class="blp7-tbl"><caption>三、全品總覽與方法論定位</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>四道防線總覽</td><td>本體論幻象（狀態轉換泥團即瓶）→世俗倫理時間災難（無常退守三世坍塌）→語言微細相遁詞（名相八不可知）→目的論生滅時序（各取因故時序倒錯）</td></tr><tr><td>論證骨架四步</td><td>問題（果是否預存於因）→陷阱（常見vs斷見二元對立）→過程（四道防線逐層被破）→躍遷（續故不斷壞故不常八字躍出對立）</td></tr><tr><td>五異防護罩</td><td>形（Shape）時（Time）力（Function）知（Cognition）名（Name），五道紅箭穿破泥團即瓶的等號，現象差異直接否證本體同一</td></tr><tr><td>死寂宇宙代價</td><td>若堅持實體不失，泥團不應變瓶（無失），無也不應變有，結果世界完全靜止，連一片瓶都不該出現</td></tr><tr><td>本品終極價值</td><td>不在贏得語言學或本體論的邏輯遊戲，而在透過理性思辨斬斷對實體的執念，證入涅槃寂靜，十四回合攻防是精微的修心訓練</td></tr><tr><td>承先啟後之位置</td><td>破實體因果（自性）顯緣起中道，為下一品破因中無果（勝論派果全新從無到有之偏見）鋪路，兩品合觀方見不有不無不常不斷之中道</td></tr></tbody></table><p class="blp7-note">〈破因中有果品〉直指印度數論派最核心的本體論主張——瓶已預先潛藏於泥團之中，陶師只是把它「開顯」而非「創造」。提婆菩薩以四道防線層層拆解：第一防線用「五異防護罩」（形時力知名）證明泥團與瓶若真為同一實體，現象界不應存在任何差異，指屈申喻與少壯老喻皆因「業非能」與「不可逆轉」而失效；第二防線揭示若堅持因果絕對同一，不僅罪福等倫理實踐盡數瓦解，連三世時序都會坍塌併入同一時空；第三防線把外道的「名相遁詞」反轉為「因中無果」的鐵證，「本無麁相後乃生」一句直擊微細相盾牌的要害；第四防線在目的論與生滅時序的詭辯中被逐一封死。當外道被逼到「因中無果則墮斷滅」的絕境時，提婆菩薩以「續故不斷，壞故不常」八字完成全品最深刻的躍遷——穀子必須腐壞才能轉化為新芽，相續不是常住，壞滅也不是斷絕，這正是十二因緣「不著斷常，行中道入涅槃」的具體寫照。本品之精采，不在於贏得一場邏輯遊戲，而在於用嚴密的理性思辨，為修行者拆除「實體」這個最深的心理拐杖。</p></div></div>
+<script id="wy-blp7-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("blp7Btn"),BOX=document.getElementById("blp7Box"),MODAL=document.getElementById("blp7Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=6;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".ch-yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="blp7Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BLP7:END-->
 </body>
 </html>
