@@ -1487,5 +1487,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BLP7:END-->
+<!--WY-BLP8:BEGIN-->
+<style id="wy-blp8-css">
+.blp8-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.blp8-fabbox.show{display:block;}
+.blp8-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.blp8-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.blp8-ic{font-size:15px;line-height:1;color:#ecc978;}
+.blp8-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.blp8-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.blp8-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.blp8-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.blp8-modal.open{display:flex;}
+.blp8-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.blp8-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.blp8-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.blp8-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.blp8-close:hover{background:#e3d5b8;}
+.blp8-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.blp8-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.blp8-tbl th,.blp8-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.blp8-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.blp8-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.blp8-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.blp8-tbl b{color:#8b2500;}
+.blp8-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.blp8-note b{color:#8b2500;}
+@media(max-width:900px){.blp8-fabbox{right:14px;}.blp8-tbl{font-size:11.5px;}.blp8-card{padding:26px 14px 16px;}}
+</style>
+<div class="blp8-fabbox" id="blp8Box"><button class="blp8-btn" id="blp8Btn" type="button" aria-label="開啟全景總表"><span class="blp8-ic">▦</span><span class="blp8-ls"><span class="blp8-l1">本品 · 破因中無果品第八</span><span class="blp8-l2">截斷生機，物物非物皆不生</span></span></button></div><div class="blp8-modal" id="blp8Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="blp8-card"><button class="blp8-close" id="blp8Close" type="button" aria-label="關閉">×</button><h3>百論·破因中無果品第八 · 全景總表</h3><p class="sub">百論·第八品｜有不須生無不能生・五層破邪網・四句矩陣不生亦不滅</p><table class="blp8-tbl"><caption>一、兩極對峙與五層破邪網總覽</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>第七第八品對峙</td><td>第七品破因中有果（果已預先隱藏於因，落常見）；第八品破因中無果（果百分百全新從無到有，落斷見），雙方共同盲區皆默認有一個叫「生」的真實動作可被指認</td></tr><tr><td>兩刃利器</td><td>有不須生（事物已存在則無須再被生）、無不能生（事物不存在則無主體能執行生），涵蓋一切有無狀態逼生無處安身</td></tr><tr><td>五層破邪網總覽</td><td>破生之時（時間切片檢證）→破次第與三相（共相因待）→破能生與可生（有無不可相待）→破因中無果之荒謬（絕對無的平權災難）→四句絕殺矩陣（窮盡一切）</td></tr><tr><td>第一層破生之時</td><td>瓶初瓶時有生則瓶已有生復何用；泥團後非瓶時有生則未有瓶何來瓶生；生時半生半未生，二俱過，「成」即「生已」不可以成為生</td></tr><tr><td>第二層破次第三相</td><td>初中後三者共相因待（無前有後、有前有後、有前無後，互相依賴無一獨立）；若生亦是有為法則生亦有生住壞三相，生生無窮，一切處有一切</td></tr><tr><td>第三層破能生可生</td><td>能生是實體的有、可生是未發生的無，有無無法放在同一天平上相待；若從二生何以無三，離生可生更無有瓶等第三法</td></tr></tbody></table><table class="blp8-tbl"><caption>二、因中無果荒謬與四句絕殺矩陣</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>因壞故生的時間悖論</td><td>若因壞時有果則與壞不異故生亦滅，若壞後有果則因已壞無因故果不應生，因壞與果生沒有可成立的時間關係</td></tr><tr><td>絕對無的平權災難</td><td>若因中絕對無果，則泥中之布與泥中之瓶皆為零、皆平權，若其俱無泥應有布縷應有瓶，然事實泥能生瓶卻不能生布，特定對應關係全面崩潰</td></tr><tr><td>一因多果一果多因</td><td>若乳中先有果則乳中有酪酥等亦酥中有酪乳等，一因中多果、一果中多因，先後因果一時俱有過，時空秩序徹底錯亂</td></tr><tr><td>四句破生矩陣</td><td>物生物（母生子，然子先有從母出，只是顯現非實生）、物生非物（石女不生子）、非物生物（龜毛不生蒲，無法生實）、非物生非物（兔角不生兔角，零生零）</td></tr><tr><td>象限一物生物三譬喻</td><td>母生子（只是顯現非實生）、壯變老（狀態變化非全新產生）、鏡中像（無所從來，非物生物）</td></tr><tr><td>四句總結矩陣</td><td>是故無有生法，若瓶與泥團不異則瓶生時泥團不應滅，若泥團與瓶不異則瓶不應生瓶，因中有果無果二者皆物不生物</td></tr></tbody></table><table class="blp8-tbl"><caption>三、六大武器與不生亦不滅</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>六大武器綜合</td><td>時間切片、相待假名、順序三相、絕對無果、四句矩陣、兩刃利器，環環相扣圍繞中觀放大鏡的解構星圖</td></tr><tr><td>凡夫慣性vs中觀放大鏡</td><td>凡夫深信有跨越無到有的神秘瞬間；中觀證明生只是緣起湊合時大腦貼上的假名，尋找產生的精確機制只發現機制本身是認知幻覺</td></tr><tr><td>拼圖完成</td><td>第七品破因中有果指向不滅（若果本來存在何來永恆藏果之實體）、第八品破因中無果指向不生（若果全新從無到有則生點不可得），合而為不生亦不滅</td></tr><tr><td>三重博士級檢證</td><td>邏輯檢證（泥巴生布破絕對無中生有）、維度檢證（生生無窮破時間切片實體動作）、極限檢證（龜毛兔角石女四句矩陣終結一切本體論產生）</td></tr><tr><td>截斷生機的本質</td><td>破立工夫不是斷因果之相續，而是斷實體生之妄執，緣起依然，唯生機已截</td></tr><tr><td>全品終結語</td><td>所謂因果，從來不是實體的生成，而是如幻的緣起；因果之間只剩緣起，緣起之中原本不曾有生</td></tr></tbody></table><p class="blp8-note">〈破因中無果品〉與上一品〈破因中有果〉形成完美的對稱結構——上品破常見（果已預先藏於因），本品破斷見（果百分百全新從無到有）。提婆菩薩鎖定雙方共同的盲區：無論常見斷見，都默認有一個叫「生」的真實動作可被指認，於是全品火力集中在瓦解「生」本身的實體性。五層破邪網由淺入深：時間切片證明生找不到落腳的瞬間（已生無用、未生無主）；次第三相證明初中後只是相待假名、生生無窮則陷入無限迴圈；能生可生的相待結構因「有無不可放在同一天平」而崩潰；訴諸經驗的「因壞故生」被拆解為絕對無的平權災難——若因中絕對無果，泥团生瓶與生布本應等值，但事實泥能生瓶卻不能生布，特定因果對應關係無法解釋。終局的四句絕殺矩陣（物生物、物生非物、非物生物、非物生非物）以母子、石女、龜毛、兔角四喻窮盡一切組合，逐一證明「物不生物」。第七品指向「不滅」、第八品指向「不生」，兩品合觀正是《中論》八不中道「不生亦不滅」的完整邏輯拼圖——因果之間，從來只剩緣起，緣起之中，原本不曾有「生」。</p></div></div>
+<script id="wy-blp8-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("blp8Btn"),BOX=document.getElementById("blp8Box"),MODAL=document.getElementById("blp8Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=7;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".ch-yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="blp8Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BLP8:END-->
 </body>
 </html>
