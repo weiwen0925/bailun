@@ -1116,5 +1116,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BLP1:END-->
+<!--WY-BLP10:BEGIN-->
+<style id="wy-blp10-css">
+.blp10-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.blp10-fabbox.show{display:block;}
+.blp10-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.blp10-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.blp10-ic{font-size:15px;line-height:1;color:#ecc978;}
+.blp10-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.blp10-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.blp10-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.blp10-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.blp10-modal.open{display:flex;}
+.blp10-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.blp10-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.blp10-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.blp10-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.blp10-close:hover{background:#e3d5b8;}
+.blp10-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.blp10-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.blp10-tbl th,.blp10-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.blp10-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.blp10-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.blp10-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.blp10-tbl b{color:#8b2500;}
+.blp10-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.blp10-note b{color:#8b2500;}
+@media(max-width:900px){.blp10-fabbox{right:14px;}.blp10-tbl{font-size:11.5px;}.blp10-card{padding:26px 14px 16px;}}
+</style>
+<div class="blp10-fabbox" id="blp10Box"><button class="blp10-btn" id="blp10Btn" type="button" aria-label="開啟全景總表"><span class="blp10-ic">▦</span><span class="blp10-ls"><span class="blp10-l1">本品 · 破空品第十</span><span class="blp10-l2">以幻治幻，畢竟清淨無所得</span></span></button></div><div class="blp10-modal" id="blp10Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="blp10-card"><button class="blp10-close" id="blp10Close" type="button" aria-label="關閉">×</button><h3>百論·破空品第十 · 全景總表</h3><p class="sub">百論·第十品｜能破亦空無執非執・相待自空四句無說・二諦圓融畢竟清淨</p><table class="blp10-tbl"><caption>一、四層推演矩陣與能破亦空</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>全品定位</td><td>前九品掃蕩外在法相（神一異情塵因果常），第十品是自我手術：對治修行者最後最幽微的病灶——將「空」與「破除」本身實體化的空病</td></tr><tr><td>四層推演矩陣</td><td>第一層能破亦空（破除破除本身的實體化）→第二層無執非執（破除無執的語言悖論）→第三層二諦圓融（空不壞俗）→第四層畢竟清淨（無人無解脫）</td></tr><tr><td>雙方底層作業系統</td><td>外道語言必對應實體、破壞即建立新法、追求絕對有無二元；中觀語言僅是假名施設、以幻治幻不立新法、不落有無常依二諦</td></tr><tr><td>破如可破</td><td>外道二難：破若有則違一切法空、破若無則無所破一切法有；論主答破成故一切空無所有，能破可破同歸於空，如說無第二頭不以破故便有</td></tr><tr><td>成破非一</td><td>成名稱歎功德、破名出其過罪，歎德出罪不名為一；成名有畏（要成立需先有所畏），論主無所畏故好破無所畏故無所成</td></tr><tr><td>一切不成的骨牌效應</td><td>若破他法即自成法，則自成法又會被他人破，如此無止盡互毀，一切不成故我無所成，反證中觀一無所執</td></tr></tbody></table><table class="blp10-tbl"><caption>二、語言悖論相待瓦解與四句無說</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>世間相違之辨</td><td>外道言空無相世人不信受，論主反手指出真正反常識的是外道自己（乳中已有酪、童女已姙、除梁椽外別有屋），空恰是最精準描述世俗因緣的語言</td></tr><tr><td>無執非執之語言哲學</td><td>無執不名為執，如言無不以言無故便有無；語言是遮撥工具（pointer）不是實體標籤（entity），外道預設任何被說出口的詞都對應實體，中觀直接拒絕此規則</td></tr><tr><td>滅法人的反轉</td><td>外道指控中觀滅一切法，論主反手：我自無法則無所破，汝謂我滅法而欲破者是則滅法人，反倒是預設有法可滅的外道才是真正的滅法人</td></tr><tr><td>相待瓦解自性空</td><td>有空必有實之相待邏輯，論主一破故無相待：若無一則無相待，若無不空則無空，空不是天秤的另一端，空是把整座天秤拆掉</td></tr><tr><td>熱時焰妄水喻</td><td>智者告言此非水也，為斷彼想不為破水，如是諸法性空眾生取相故著，為破是顛倒故言破實無所破，破的是妄想不是法</td></tr><tr><td>四句無說法</td><td>有無亦有亦無非有非無四句皆破，外道質疑第四句無說法不可信，論主借敵之矛：衛世師經聲不名大不名小、僧佉經泥團非瓶非非瓶、尼乾法光非明非闇，第四句諸經共有</td></tr></tbody></table><table class="blp10-tbl"><caption>三、二諦圓融與畢竟清淨</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>世間相違的現實鴻溝</td><td>外道質疑若都空何以說善惡法教化入舍衛城乞食，論主答隨俗語故無過，諸佛說法常依俗諦第一義諦，是二皆實非妄語也</td></tr><tr><td>奈棗瓜的相對論</td><td>俗諦於世人為實於聖人為不實，譬如一柰於棗為大於瓜為小此二皆實，若反過來說則是妄語，世俗諦的真實性建立在相對關係而非絕對實體</td></tr><tr><td>二諦統整框架</td><td>第一義諦適用諸法無相運作邏輯畢竟空語言功能不墮妄語；俗諦適用因緣生法運作邏輯相待有語言功能隨俗語無過失</td></tr><tr><td>捨我名得解脫</td><td>初捨罪福中破神、後破一切法，是名無我無我所，於諸法不受不著聞有不喜聞無不憂是名解脫，喜憂波形歸於平直</td></tr><tr><td>對解脫的最後貪戀</td><td>外道質疑名得解脫不實得解脫耶，論主給出全品最深回答：畢竟清淨故，破神故無人、破涅槃故無解脫，於俗諦故說名解脫</td></tr><tr><td>大自在的智者境界</td><td>以幻治幻不留一法，常依二諦究竟清淨，修中觀者無所立無所得故能不畏一切不執一切，這是《百論》全書掃外自省之後的終極風光</td></tr></tbody></table><p class="blp10-note">〈破空品〉是《百論》全書的最後一戰，也是中觀修行者最幽微的自我手術——當前九品已掃蕩神我、一異、情塵、因果、常等一切外在法相的執著後，最容易被忽略的病灶，恰恰是把「空」與「破除」這個動作本身重新實體化。提婆菩薩以十六對問答構成四層推演：第一層「能破亦空」證明能破與可破皆是緣起性空，如「無第二頭」的遮撥並不創造新的實有；第二層「無執非執」拆穿語言的自指悖論，說明「無執」一詞只是遮撥工具而非實體標籤；第三層以「相待瓦解」和「熱時焰妄水喻」揭示破的是眾生的顛倒妄想而非法本身，並借外道自家經典的「無說法」例證第四句「非有非無」的合法性；第四層「二諦圓融」以「奈棗瓜的相對論」說明世俗諦的真實性建立在相對關係而非絕對實體，佛陀「入舍衛城乞食」與「諸法無相」兩軌並行不悖，絕非妄語。全品最終收束於「畢竟清淨」——破神故無人、破涅槃故無解脫，連「解脫」這個修行者最後的依戀也被放下，唯剩「以幻治幻，不留一法；常依二諦，究竟清淨」的大自在智者境界。這正是《百論》十品掃外自省之後，留給每一位修學者最深邃的中道指歸。</p></div></div>
+<script id="wy-blp10-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("blp10Btn"),BOX=document.getElementById("blp10Box"),MODAL=document.getElementById("blp10Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=9;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".ch-yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="blp10Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BLP10:END-->
 </body>
 </html>
