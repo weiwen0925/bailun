@@ -1385,5 +1385,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BLP5:END-->
+<!--WY-BLP6:BEGIN-->
+<style id="wy-blp6-css">
+.blp6-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.blp6-fabbox.show{display:block;}
+.blp6-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.blp6-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.blp6-ic{font-size:15px;line-height:1;color:#ecc978;}
+.blp6-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.blp6-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.blp6-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.blp6-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.blp6-modal.open{display:flex;}
+.blp6-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.blp6-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.blp6-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.blp6-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.blp6-close:hover{background:#e3d5b8;}
+.blp6-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.blp6-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.blp6-tbl th,.blp6-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.blp6-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.blp6-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.blp6-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.blp6-tbl b{color:#8b2500;}
+.blp6-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.blp6-note b{color:#8b2500;}
+@media(max-width:900px){.blp6-fabbox{right:14px;}.blp6-tbl{font-size:11.5px;}.blp6-card{padding:26px 14px 16px;}}
+</style>
+<div class="blp6-fabbox" id="blp6Box"><button class="blp6-btn" id="blp6Btn" type="button" aria-label="開啟全景總表"><span class="blp6-ic">▦</span><span class="blp6-ls"><span class="blp6-l1">本品 · 破塵品第六</span><span class="blp6-l2">現見即實有？巨觀微觀時間三重解構得永離</span></span></button></div><div class="blp6-modal" id="blp6Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="blp6-card"><button class="blp6-close" id="blp6Close" type="button" aria-label="關閉">×</button><h3>百論·破塵品第六 · 全景總表</h3><p class="sub">百論·第六品｜跨感官集合悖論・微塵四大不可見・現在時著屐喻・真俗二諦得永離</p><table class="blp6-tbl"><caption>一、戰場轉移與四層螺旋解剖</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>戰場轉移</td><td>破情品破除能觀之主體，破塵品旋即轉向所觀之客體，以一隻日常之瓶為靶心，逐層剝離宏觀整體微觀粒子四大元素現在時刻四道防線</td></tr><tr><td>核心辯題</td><td>現見（Direct Perception）是否等於實有（Objective Reality）？外道默認肯定，中觀指出這個等號正是一切戲論執取的根源</td></tr><tr><td>巨觀的錯覺</td><td>見色不見香：瓶非獨色為瓶，香等不可見則瓶非現見；取分之邏輯僭越：局部可見不代表整體可見，乃大腦補全的僭越</td></tr><tr><td>物理遮蔽與現見有無</td><td>色有形故此分現見彼分不現見，正面永遠遮蔽背面；現見無非瓶無：現見狀態的有無與瓶假名物的有無本非同一回事</td></tr><tr><td>微觀的崩塌</td><td>微塵無分故不可見（汝經言微塵非現見），與色同破；五身組合觸與非觸空間排斥，有觸無觸如何嵌合為單一實體</td></tr><tr><td>四大非眼見與火中無水</td><td>地堅水濕火熱風動四大本性皆非眼根所及；若一切物皆四大所造則火中應有水，水若保留濕相火便不熱，保留自性則無法組合強行組合則喪失自性</td></tr></tbody></table><table class="blp6-tbl"><caption>二、時間解構與真俗二諦鷹架</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>感知時差悖論</td><td>眼未合時無異相、眼合時異相突生，中間缺乏真實過渡，今實無異相生故現見相不生</td></tr><tr><td>著屐喻微細無常</td><td>磨損從第一剎那已起，只是變化極微不覺不知，久則相現，靜止只是變化幅度低於感知閾值的錯覺</td></tr><tr><td>新舊言說困境</td><td>觀生時名新觀異時名故，新舊只是相待概念，第一義中無新無中無故，但有言說</td></tr><tr><td>三維度共同編織之幻象</td><td>巨觀（跨感官集合物理遮蔽）讓整體成假名、微觀（微塵不可見火中無水）讓基本單位自性無法相容、時間（無異相生新舊言說）讓當下失去靜止容器</td></tr><tr><td>三大記憶鉤子</td><td>假名有（外境整體是大腦縫合的語言標籤）、自性空（基本粒子與四大皆無獨立自性）、無常不住（諸法剎那生滅無一刻停留）</td></tr><tr><td>真俗二諦矩陣</td><td>世俗諦承認瓶假名存在具備功用、第一義諦揭示瓶自性本空不可得；世俗諦有生住異滅刻度、第一義諦剎那生滅諸法不住</td></tr></tbody></table><table class="blp6-tbl"><caption>三、終極解答得永離</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>破邪顯正</td><td>現見無非瓶無：破的是絕對獨立永恆不變的實體瓶子，保留的是因緣和合具備功用的假名瓶子，是不墮虛無主義的核心護欄</td></tr><tr><td>若爾得何利</td><td>外道最後詰問破除一切外境實有之後到底有什麼好處，這句詰問暗藏大腦慣性抓取所引發的無止盡貪求與恐懼</td></tr><tr><td>得永離三段心法</td><td>看穿言說（新舊只是大腦強加的言說）→諸法不住（了知一切法剎那生滅）→不住故遠離（既無靜止可立足自然遠離抓取）→遠離故不可得取（抓取的對象與動作雙雙瓦解）</td></tr><tr><td>十三組對答總覽</td><td>全品由跨感官悖論、取分僭越、物理遮蔽、微塵不可見、五身組合、四大非眼見、火中無水、感知時差、新舊言說等十三組問答構成完整論證鏈</td></tr><tr><td>四道階梯回顧</td><td>巨觀解構打破整體執思揭示假名→微觀解構打破積木迷思揭示自性空→時間解構打破當下幻覺揭示無常不住→終極歸處確立真俗二諦證得永離</td></tr><tr><td>全品終極心法</td><td>諸法不住，不住故遠離；破塵不是為了走向虛無，而是為了徹底解除認知抓取，獲得不再被外境牽動的大自在</td></tr></tbody></table><p class="blp6-note">〈破塵品〉接續〈破情品〉的成果，把解剖刀從「能觀之主體」轉向「所觀之客體」——以日常一瓶為靶心，逐層剝除宏觀整體、微觀粒子、時間現在三重執取。巨觀層面，跨感官集合悖論證明「見色不見香」使整體從未真正被單一感官捕捉，而是碎片經記憶縫合後貼上的概念標籤；微觀層面，微塵不可見悖論與火中無水的元素相違悖論證明基本粒子若保留自性則無法組合、強行組合則喪失自性；時間層面，感知時差悖論與著屐喻證明「現在」只是變化幅度低於感知閾值的錯覺，新舊不過是言說的方便標記。三層解構收束於真俗二諦的鷹架——世俗諦承認假名的功用，第一義諦揭示自性的空寂，二諦並行不悖，正是中觀不墮虛無主義的根本護欄。全品最終以「得永離」三字作終極解答：明白新舊只是言說、了知諸法剎那不住，便能不住故遠離、遠離故不可得取——這不是知識上的勝利，而是徹底斬斷認知層面抓取的修證指南，讓行者不再被外境牽動，獲得真正的大自在。</p></div></div>
+<script id="wy-blp6-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("blp6Btn"),BOX=document.getElementById("blp6Box"),MODAL=document.getElementById("blp6Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=5;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".ch-yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="blp6Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BLP6:END-->
 </body>
 </html>
