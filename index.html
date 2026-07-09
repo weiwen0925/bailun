@@ -1279,5 +1279,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BLP3:END-->
+<!--WY-BLP4:BEGIN-->
+<style id="wy-blp4-css">
+.blp4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.blp4-fabbox.show{display:block;}
+.blp4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.blp4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.blp4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.blp4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.blp4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.blp4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.blp4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.blp4-modal.open{display:flex;}
+.blp4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.blp4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.blp4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.blp4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.blp4-close:hover{background:#e3d5b8;}
+.blp4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.blp4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.blp4-tbl th,.blp4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.blp4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.blp4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.blp4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.blp4-tbl b{color:#8b2500;}
+.blp4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.blp4-note b{color:#8b2500;}
+@media(max-width:900px){.blp4-fabbox{right:14px;}.blp4-tbl{font-size:11.5px;}.blp4-card{padding:26px 14px 16px;}}
+</style>
+<div class="blp4-fabbox" id="blp4Box"><button class="blp4-btn" id="blp4Btn" type="button" aria-label="開啟全景總表"><span class="blp4-ic">▦</span><span class="blp4-ls"><span class="blp4-l1">本品 · 破異品第四</span><span class="blp4-l2">不壞假名，而說實相</span></span></button></div><div class="blp4-modal" id="blp4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="blp4-card"><button class="blp4-close" id="blp4Close" type="button" aria-label="關閉">×</button><h3>百論·破異品第四 · 全景總表</h3><p class="sub">百論·第四品｜勝論陀羅驃求那・合異別異變異・了因作因燈照喻・車軸喻拔除幕後黑手</p><table class="blp4-tbl"><caption>一、戰場座標與五重攻防架構</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>戰場座標轉移</td><td>上品破「一」謬（事物與屬性絕對等同）已完成，本品標靶轉為「異＋合」：外道承認瓶與有一相異，但透過「合」（Samavāya）黏合成一體</td></tr><tr><td>敵方陣地</td><td>勝論派三大範疇：陀羅驃（實體，如瓶）、求那（屬性，如有一）、業（運動）；異又分合異（實體與屬性結合）、別異（此人彼人）、變異（牛糞變灰）</td></tr><tr><td>中觀利刃不一不異</td><td>既不允許實體與屬性絕對等同（破上品之一），也不允許各自離因緣獨立存在（破本品之異），順著外道邏輯步步推演至其系統自我崩潰</td></tr><tr><td>第一重絕對差異</td><td>若瓶與有一絕對相異，瓶則非有非一（虛空中的幽靈）；且瓶滅時有一不應滅（如此人滅彼人不應滅），與經驗事實衝突</td></tr><tr><td>第二重結合補丁</td><td>外道以「合」黏合瓶與屬性，卻導致多瓶之謬（瓶＋有合之瓶＋一合之瓶＝三瓶），且「以異證異」犯循環論證之過</td></tr><tr><td>第三重燈照喻</td><td>有若為了因（如燈顯現已存在之物），則瓶必先存在而後照，「有」變成多餘；若為作因，則直接矛盾其「了因」之說，時間軸悖論照亮虛無</td></tr></tbody></table><table class="blp4-tbl"><caption>二、五重攻防戰果總覽</caption><thead><tr><th>攻防重點</th><th>中觀破斥要點</th></tr></thead><tbody><tr><td>絕對差異之過</td><td>瓶與有一各各絕對相異則各各失，瓶失而有一不應失，如此人滅彼人不應滅，違反經驗（瓶破則有一亦隨之消失）</td></tr><tr><td>結合補丁之過</td><td>多瓶之謬（每次結合增殖一實體）；數理崩塌（一無故多亦無，數法初一若瓶不為一則多亦無所依）</td></tr><tr><td>燈照喻之過</td><td>了因與作因範疇錯置：若瓶先有何須再照，若瓶未有則有是作因非了因；如燈自照不假外照，瓶亦應自有不待外有</td></tr><tr><td>微塵集合之過</td><td>都集則一切微塵盡應為瓶、不都集則邊界無定；縷渧集力喻反被石女盲沙喻擊破，零的乘數效應：無自性堆疊仍是無自性</td></tr><tr><td>空間部分整體之過</td><td>若整體具有於部分則頭應在足中，若整體分有於部分則有分如分無獨立整體；有分無故諸分亦無</td></tr><tr><td>妄語反擊車軸喻</td><td>世人僅見輪軸等零件和合運作而假名為車，外道卻執零件之外別有車之實體，是故外道才是真正的妄語人</td></tr></tbody></table><table class="blp4-tbl"><caption>三、拔除幕後黑手與八不中道</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>五重攻防全景</td><td>絕對差異→本體湮滅論；結合補丁→多瓶之謬；燈照時間→照亮虛無；空間微塵→零的乘數效應；妄語反擊→車軸假名</td></tr><tr><td>核心洞見</td><td>拔除幕後黑手：外道思維慣性始終如一——看到現象運作，就妄想背後必有獨立實體在操控（屬性實體整體實體因果實體）</td></tr><tr><td>昇華入八不中道</td><td>破一品破絕對同一、破異品破絕對差異，兩種極端被證偽後留下的是無自性的緣起大綱，即龍樹「不一不異」之首兩不</td></tr><tr><td>假名有與本體妄想之決裂</td><td>假名有焦點放在和合（因緣和合的現象，剔除多餘形而上學實體）；本體妄想焦點放在別有（在直接感知之上硬加看不見的實體幻象）</td></tr><tr><td>世間二諦觀</td><td>世俗諦（假名有）與勝義諦（緣起性空）並不對立，緣起是空的，空恰恰是緣起的，中觀立場不是破壞而是淨化</td></tr><tr><td>結語心法</td><td>不壞假名而說實相：破的是我們在現象之上強加的實體妄想，不是現象本身，瓶車身體仍然運作，受損的只是長久以來妄加的實體幻想</td></tr></tbody></table><p class="blp4-note">〈破異品〉承接〈破一品〉的戰果，專破外道退守的「異＋合」防線——勝論派承認瓶與屬性彼此相異，卻企圖用「合」（Samavāya）這個第四範疇把兩者黏合成一體。提婆菩薩以五重攻防層層拆解：絕對差異導致瓶子本身淪為既非有又非一的虛空幽靈；結合補丁引發多瓶之謬與數理崩塌；燈照喻在時間軸上被逼出「照亮虛無」的荒謬；微塵集合的「零的乘數效應」證明無自性的堆疊仍是無自性；最終外道惱羞成怒指控中觀「破壞常識」，提婆菩薩卻用車軸之喻反手定性對方才是真正的「妄語人」——世人明明只見輪軸等零件和合運作，何必妄想零件之外另有一個摸不著的「車之實體」？全品的核心心法是「拔除幕後黑手」：無論屬性實體、整體實體或因果實體，凡是現象運作背後被妄想出來的獨立主宰者，都在中觀的解剖刀下無所遁形。破一破異合觀，正是龍樹《中論》「不一不異」在《百論》中最完整的操演，最終指向「不壞假名，而說實相」的中道究竟義。</p></div></div>
+<script id="wy-blp4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("blp4Btn"),BOX=document.getElementById("blp4Box"),MODAL=document.getElementById("blp4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".ch-yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="blp4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BLP4:END-->
 </body>
 </html>
