@@ -1222,5 +1222,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BLP2:END-->
+<!--WY-BLP3:BEGIN-->
+<style id="wy-blp3-css">
+.blp3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.blp3-fabbox.show{display:block;}
+.blp3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.blp3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.blp3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.blp3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.blp3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.blp3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.blp3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.blp3-modal.open{display:flex;}
+.blp3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.blp3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.blp3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.blp3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.blp3-close:hover{background:#e3d5b8;}
+.blp3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.blp3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.blp3-tbl th,.blp3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.blp3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.blp3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.blp3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.blp3-tbl b{color:#8b2500;}
+.blp3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.blp3-note b{color:#8b2500;}
+@media(max-width:900px){.blp3-fabbox{right:14px;}.blp3-tbl{font-size:11.5px;}.blp3-card{padding:26px 14px 16px;}}
+</style>
+<div class="blp3-fabbox" id="blp3Box"><button class="blp3-btn" id="blp3Btn" type="button" aria-label="開啟全景總表"><span class="blp3-ic">▦</span><span class="blp3-ls"><span class="blp3-l1">本品 · 破一品第三</span><span class="blp3-l2">逼極成一，如一切成</span></span></button></div><div class="blp3-modal" id="blp3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="blp3-card"><button class="blp3-close" id="blp3Close" type="button" aria-label="關閉">×</button><h3>百論·破一品第三 · 全景總表</h3><p class="sub">百論·第三品｜實體屬性數量鐵三角・四回合逼極成一・總相別相軍林喻・長短相待緣起性空</p><table class="blp3-tbl"><caption>一、戰略背景與逼極成一心法</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>戰略降維</td><td>外道由下而上構建造物主神學（有一瓶等→神所有→神），中觀直接截斷底層基石：若「一」不可得，神自然無立足之地</td></tr><tr><td>敵方鐵三角</td><td>實體（瓶陀羅驃）× 屬性（有求那）× 數量（一），外道將三個本可獨立的概念強制綁定為不可分割之整體</td></tr><tr><td>二重分岔陷阱</td><td>若以一有（瓶與有絕對等同）？若以異有（瓶與有絕對不同）？二俱有過，本品主戰場集中在「若以一有」</td></tr><tr><td>逼極成一心法</td><td>只要外道論述暗藏包含依賴組合的模糊地帶，中觀就把它推向絕對等同的極限，令其在荒謬中自毀</td></tr><tr><td>四回合辯證架構</td><td>第一回合屬性與實體→如一一切成；第二回合總相與別相→別相無故總相亦無；第三回合整體與部分→眾亦如瓶；第四回合相待與因果→因他相違共過</td></tr><tr><td>終極證量</td><td>離一異，萬法皆如實：當絕對一與絕對異兩端皆破，剩下的不是虛無而是緣起的如實相</td></tr></tbody></table><table class="blp3-tbl"><caption>二、四大戰場逐一破斥</caption><thead><tr><th>戰場</th><th>中觀破斥要點</th></tr></thead><tbody><tr><td>實體與屬性（瓶≡有≡一）</td><td>如一一切成：衣等諸物亦應是瓶；如一一切不成：處處有而處處無瓶；如一一切顛倒：說瓶即應說有說一</td></tr><tr><td>總相與別相（一人亦父亦子）</td><td>別相無故總相亦無，父子喻反證緣起（未生子不名為父），頭足喻推至「足應是頭」的荒謬互換</td></tr><tr><td>整體與部分（軍林象馬松柏）</td><td>眾亦如瓶：若松柏與林不異，松柏亦應一；解構刀可無限下探至根莖枝節，任何集合名詞建立的實體皆被無限細分</td></tr><tr><td>因與果（多因現一果）</td><td>若因果一則三世為一，泥團現在、瓶為未來、土為過去，強令因果不異即令三世時序併入同一時空、語壞</td></tr><tr><td>相待與因果（長短互依成實）</td><td>因他相違共過：長中無長相（因短故為長）、短中亦無長（性相違故）、長短共中亦無長，若無長短云何相待</td></tr><tr><td>假名有的中道立場</td><td>破一並非否定世間現象，瓶衣軍林長短依舊運作，但皆是相互依存的假名有，非獨立不變的實體有（自性）</td></tr></tbody></table><table class="blp3-tbl"><caption>三、經文回扣與三論體系定位</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>經文回扣</td><td>外道原論證鏈「有一瓶等→神所有→神」，中觀直接拔除底層「一」這塊基石，四回合戰果一疊加，造物主神學邏輯支柱徹底粉碎</td></tr><tr><td>辯證全景矩陣</td><td>四戰場（實體屬性、總別相、整體部分、相待因果）各配一外道譬喻與一中觀記憶錨點，構成本品的核心記憶框架</td></tr><tr><td>心法四步驟</td><td>識別模糊（偵測含攝依合等可推延詞）→逼向極限（將不異推到完全等同）→引爆連鎖（推導出無法接受的荒謬結論）→拒絕重構（重複前三步直到對方放棄）</td></tr><tr><td>實體有與假名有</td><td>實體有（自性）主張獨立不變絕對本質，是本品所破之執；假名有（緣起）承認相互依存概念安立，是中觀所彰顯的中道實相</td></tr><tr><td>承先啟後之位置</td><td>破一品是《中論》八不「不一不異」之「不一」的具體展開，逼極成一之歸謬法後來成為月稱應成派的標準論法</td></tr><tr><td>全品結語</td><td>離一異，萬法皆如實：中觀方法論史上極關鍵的一品，體量雖小而影響深遠</td></tr></tbody></table><p class="blp3-note">〈破一品〉表面上只在辯論「一」這個數量概念，實則是提婆菩薩對「絕對同一性」這個本體論執著發動的精準降維打擊——外道原想從「有一瓶等」這個無人會否認的日常經驗，逐級反推出「神所有」乃至造物主「神」的存在，中觀則識破這條因果鏈最脆弱的底層基石正是「一」字本身。四個回合的攻防中，無論外道退守到總相別相的父子喻、多因現一果的軍林喻，還是長短相待的因果喻，提婆菩薩都用同一套「逼極成一」的歸謬法，將對方的「不異」步步逼向「絕對等同」的極限，直到荒謬結論自動浮現。最終「離一異，萬法皆如實」揭示的並非虛無，而是萬法依然運作、卻無一法擁有獨立自性的緣起如實相——這正是中觀「不壞假名而說諸法實相」的中道精髓，也是《中論》「不一不異」在《百論》中最具體而微的操演。</p></div></div>
+<script id="wy-blp3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("blp3Btn"),BOX=document.getElementById("blp3Box"),MODAL=document.getElementById("blp3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".ch-yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="blp3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BLP3:END-->
 </body>
 </html>
