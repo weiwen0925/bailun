@@ -1173,5 +1173,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BLP10:END-->
+<!--WY-BLP2:BEGIN-->
+<style id="wy-blp2-css">
+.blp2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.blp2-fabbox.show{display:block;}
+.blp2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.blp2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.blp2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.blp2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.blp2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.blp2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.blp2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.blp2-modal.open{display:flex;}
+.blp2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.blp2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.blp2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.blp2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.blp2-close:hover{background:#e3d5b8;}
+.blp2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.blp2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.blp2-tbl th,.blp2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.blp2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.blp2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.blp2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.blp2-tbl b{color:#8b2500;}
+.blp2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.blp2-note b{color:#8b2500;}
+@media(max-width:900px){.blp2-fabbox{right:14px;}.blp2-tbl{font-size:11.5px;}.blp2-card{padding:26px 14px 16px;}}
+</style>
+<div class="blp2-fabbox" id="blp2Box"><button class="blp2-btn" id="blp2Btn" type="button" aria-label="開啟全景總表"><span class="blp2-ic">▦</span><span class="blp2-ls"><span class="blp2-l1">本品 · 破神品第二</span><span class="blp2-l2">諦觀察之，實無有神</span></span></button></div><div class="blp2-modal" id="blp2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="blp2-card"><button class="blp2-close" id="blp2Close" type="button" aria-label="關閉">×</button><h3>百論·破神品第二 · 全景總表</h3><p class="sub">百論·第二品｜數論勝論神我論・一異緣起破喻三關・知識論無窮倒退・以子之矛攻子之盾</p><table class="blp2-tbl"><caption>一、標靶確立與三關辯證骨架</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>兩大外道陣營</td><td>數論派（迦毘羅）立二十五諦，神為主、常覺相、處中常住；勝論派（優樓迦）以出入息欲恚苦樂等相反推神有，神知合故有知</td></tr><tr><td>三大阿基里斯腱</td><td>神我共執三屬性：常（永恆不變）、遍（無所不在）、覺（具備知覺），論主證明三者兩兩相衝，任何二者並存第三者必崩潰</td></tr><tr><td>第一關一異門</td><td>神覺為一則覺無常故神應無常；神覺為異則覺行一處不能周遍、神復何用，雙刃劍逼外道無論選一選異皆墮過</td></tr><tr><td>第二關緣起門</td><td>神若待因緣合乃能有用，則覺屬因緣故墮生相；何不用耳見、若爾盲等連環詰問，證神離眼無見、依賴即非主宰</td></tr><tr><td>第三關破喻門</td><td>黑疊喻犯自違經文之過、燈色喻犯自相不了之過、頗梨陶師喻犯珠新新生滅之過、盲跛喻犯異相不能協作之過、舍主空熱喻犯遍滿即應斷壞之過</td></tr><tr><td>知識論無窮倒退</td><td>意知色塵、神知意、誰復知神？層層倒退無窮；中觀解方為「以現在意知過去意，意法無常故無咎」</td></tr></tbody></table><table class="blp2-tbl"><caption>二、十大譬喻破斥總覽</caption><thead><tr><th>譬喻</th><th>中觀破斥要點</th></tr></thead><tbody><tr><td>黑疊喻（求那陀羅驃）</td><td>自違汝經：陀羅驃不作求那、求那不作陀羅驃，若他合故以他為名，何不名知為神</td></tr><tr><td>有牛喻</td><td>牛相牛中住，非有牛中，人牛合而人不作牛，同理神知合而神不為知</td></tr><tr><td>燈喻（能照不能作物）</td><td>瓶等可得可用不待燈照，而神無因緣合則不能覺苦樂，自相不了故燈喻非也</td></tr><tr><td>頗梨珠喻（一隨色變）</td><td>珠新新生滅，覺共緣生，非一頗梨隨色而變，一覺隨塵別異之喻不成立</td></tr><tr><td>陶師喻（一工匠作多果）</td><td>陶師身一無異相而瓶瓫等異，然損益覺實有異相，喻與所喻不對應</td></tr><tr><td>盲跛喻（身心和合而行）</td><td>盲跛二觸二思惟法應能去，身神無二事（身無思惟神無動力）故不應去，異相故不可協作</td></tr><tr><td>舍主惱不燒喻</td><td>空常故不燒不熱，神若真常亦不應惱不應斷，神遍滿故亦應同斷壞，一語雙刺</td></tr><tr><td>衣分燒喻（一分燒名燒衣）</td><td>若一分燒不名為燒應名分燒，今多不燒應名不燒，是以莫著語言，全品最後一槌</td></tr></tbody></table><table class="blp2-tbl"><caption>三、三大屬性崩潰與中觀勝義（本品結論）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>常之崩潰</td><td>覺如生滅、墮於生相，因緣合故墮生相，神非永恆</td></tr><tr><td>遍之崩潰</td><td>覺行一處、分知不名知，神何不耳見，神則二相（覺不覺相），神非遍滿</td></tr><tr><td>覺之崩潰</td><td>知即能知故神復何用，離視不見非知法故，神無自性</td></tr><tr><td>無我即緣起</td><td>認知功能之所以能成立，正因受制於因緣、本質無常，若真有不動的觀察者反而凍結成死物，連意識到都不可能發生</td></tr><tr><td>以子之矛攻子之盾</td><td>提婆嚴格適用對方的定義（實體屬性遍滿能動），證明其絕對實體根本無法映射至任何人類真實感知經驗</td></tr><tr><td>最終宣告</td><td>「諦觀察之，實無有神」，錨點不存在故恐懼無從生起，恐懼不起便有當下自由與覺醒，此為破神終極義趣</td></tr></tbody></table><p class="blp2-note">破神品的核心工程，是把「神我」這個橫跨數論勝論兩大外道陣營的共執，還原為常、遍、覺三種可被檢驗的屬性，再逐一證明三屬性兩兩相斥、不可能同時成立於同一實體。提婆菩薩全程「不立自宗，唯破他執」，以一異門、緣起門、破喻門三道關卡層層逼問，最終在知識論的無窮倒退處收束於「意法無常故無咎」的緣起解方——認知不需要一個永恆的後設主體，只需條件相續的意識流。全品十大譬喻悉數瓦解之後，「諦觀察之，實無有神」不是虛無的斷滅，而是拔除了眾生對安穩錨點的虛構攀緣，恐懼失去支點，當下的自由與覺醒自然顯現，這正是中觀「以子之矛攻子之盾」辯論藝術千年不朽的關鍵。</p></div></div>
+<script id="wy-blp2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("blp2Btn"),BOX=document.getElementById("blp2Box"),MODAL=document.getElementById("blp2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL=".ch-yt-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="blp2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BLP2:END-->
 </body>
 </html>
